@@ -9,10 +9,16 @@ public class Main
         Animal misty = new Dog(); // Polymorphism
 
         misty.setName("Misty");
-        System.out.println(misty.getName());  
-        misty.speak();  
+        System.out.println(misty.getName());
+        misty.speak();
 
         Cat topcat = new Cat();
+        int i;
         topcat.speak();
+        for (i=0 ; i<9 ; i++)
+        {
+          kill();
+        }
+
     }
 }
